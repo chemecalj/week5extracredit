@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""This program is an example of the random and sleep module."""
+
+from random import randint 
+from time import sleep
+
+print("here's comes roll # 1")
+
+print ("the dice are rolling .....")
+print ("dice 1","dice 2")
+for x in range(5):
+    d1 = randint(1,6)
+    d2 = randint(1,6)
+    print (d1, "    ", d2)
+    sleep(1.5)
+print()
+print()
+d1 = randint(1,6)
+d2 = randint(1,6)
+print (d1, "    ", d2, "...... you rolled", d1 + d2)
