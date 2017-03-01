@@ -1,4 +1,4 @@
-# week 5 extra credit
+# Week 5 extra credit
 Dice game displaying the sleep/time and random/randint modules
 
 I created this game for another python class I took before. 
